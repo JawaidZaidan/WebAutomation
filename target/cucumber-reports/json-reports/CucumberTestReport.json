@@ -1,0 +1,86 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 1861542,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Setup.BeforeLogging(Scenario)"
+            }
+          }
+        ],
+        "line": 5,
+        "name": "Testing the URL open",
+        "description": "",
+        "id": "testing;testing-the-url-open",
+        "after": [
+          {
+            "result": {
+              "duration": 4803292,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Setup.after(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 67284138000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I open the daraz URL",
+            "match": {
+              "location": "TestingSteps.openURL()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 101895250,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I assert the title of the page",
+            "match": {
+              "location": "TestingSteps.VerifyPageTitle()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 45656260500,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I click on login",
+            "match": {
+              "location": "TestingSteps.clickLogin()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@testing"
+          }
+        ]
+      }
+    ],
+    "name": "Testing",
+    "description": "",
+    "id": "testing",
+    "keyword": "Feature",
+    "uri": "src/test/resources/Features/TestFile.feature",
+    "tags": []
+  }
+]
